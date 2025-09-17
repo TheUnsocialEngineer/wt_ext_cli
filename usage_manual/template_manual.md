@@ -44,6 +44,40 @@ Prints versions found either inside the vromf (version file) and/or the header o
 {{VROMF_VERSION}}
 ```
 
+## extract_ammo_from_blk
+Expects:
+
+- single vromf file or folder with blk/blkx files
+
+Optional:
+
+- Output directory, defaults to the input directory
+
+For usage, the help output describes this best:
+
+## extract_presets_from_blk
+Expects:
+
+- single vromf file or folder with blkx/blkx files
+
+Optional:
+
+- Output directory, defaults to the input directory
+
+For usage, the help output describes this best:
+
+## generate_db
+Expects:
+
+- single vromf file or folder with blk/blk files
+
+Optional:
+
+- Output directory, defaults to the input directory
+
+For usage, the help output describes this best:
+
+
 # Environment variables
 
 `FORCE_SET_COLOR`:  
