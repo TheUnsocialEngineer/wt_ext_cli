@@ -6,13 +6,15 @@ mod unpack_raw_blk;
 mod unpack_vromf;
 mod update_check;
 mod vromf_version;
+mod extract_presets_from_blk;
+mod extract_ammo_from_blk;
+mod generate_db;
 
 use clap::{command, Arg, ColorChoice, Command, ValueHint};
-use const_format::formatcp;
 
 pub fn build_command_structure() -> Command {
 	command!("wt_ext_cli")
-		.version(formatcp!("{} {}", crate::GIT_TAG, crate::COMMIT_HASH))
+		//.version(formatcp!("{} {}", crate::GIT_TAG, crate::COMMIT_HASH))
 		.about("WarThunder datamining extraction tools")
 		.subcommand_required(true)
 		.arg_required_else_help(true)
@@ -44,4 +46,7 @@ pub fn build_command_structure() -> Command {
 		.subcommand(get_instruction_manual::get_instruction_manual())
 		.subcommand(hash::hash())
 		.subcommand(vromf_version::vromf_version())
+		.subcommand(extract_presets_from_blk::extract_presets_from_blk())
+		.subcommand(extract_ammo_from_blk::extract_ammo_from_blk())
+		.subcommand(generate_db::generate_db())
 }

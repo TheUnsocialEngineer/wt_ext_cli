@@ -1199,6 +1199,7 @@ dependencies = [
  "log",
  "open",
  "rayon",
+ "regex",
  "serde",
  "serde_json",
  "thiserror",
