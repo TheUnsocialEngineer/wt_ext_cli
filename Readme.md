@@ -1,6 +1,7 @@
 # wt_ext_cli
 
 > **Extract and transform BLK and VROMF archives**
+> **Extract and weapon presets and ammo for test driving**
 
 [![LOC](https://tokei.rs/b1/github/Warthunder-Open-Source-Foundation/wt_ext_cli?type=Rust,Markdown,Javascript,Python,Shell)](https://github.com/search?q=repo%3AWarthunder-Open-Source-Foundation%2Fwt_ext_cli++language%3ARust&type=code)
 
@@ -8,7 +9,7 @@
 
 ### Easy way (portable binary):
 
-- [Download from the latest stable-release](https://github.com/Warthunder-Open-Source-Foundation/wt_ext_cli/releases?q=prerelease:false)
+- [Download from the latest stable-release](https://github.com/TheUnsocialEngineer/wt_ext_cli/releases?q=prerelease:false)
 
 ### Hard way (from source):
 
@@ -28,6 +29,8 @@
 
 The GUI toolkit provides a simple graphical interface for anyone not as confident with the commandline.  
 Its repository and subsequent installation instructions are here: https://github.com/axiangcoding/WT-Toolkit
+
+-eoka note, this doesnt have the test drive features (may work on this at some point)
 
 ## Used By
 
